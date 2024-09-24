@@ -1,32 +1,40 @@
-﻿class Var
+﻿using MyCalculatorApp 
+
+
+class Program
 {
-    public static void MyVar()
+    static void mycal()
+
     {
-        string myName = "Kreg"
-        Console.Writeline (myName) ;
+        Calculator calculators = new Calculator();
+        console.WriteLine("add(int, int): " + Calculators.Add(3,4));
+       console.WriteLine("add(int, int, int): " + Calculators.Add(3,7,12));
+        console.WriteLine("add(double, double): " + Calculators.Add(7.2, 3.4));
+
     }
-
-public static void DataType()
+}
+class Program
 {
-    string firstName = "Kreg";
-    string lastName = "Else";
-    string wholeName = firstname + lastName
-    int age = 17;
-    float gpa = 4.2f;
-    double height = 6.1;
-    decimal dollar = 100.95;
-    bool is_teacher = true;
-    char grade = 'B';
+    static void Main(string[] args)
+    {
+        //Console.WriteLine("Hello, World!");
+        //Var.MyVar();
+        //Var.DataType();
+        //SubStrings.MySubStrings();
+        //Math.Numbers();
+        //Input.Hello();
+        //Math.Add(100,450,12345);
+        //If.Numbers(-10);
+        //If.health();
+        //Loops.EvenLoop();
+        //Loops.ForLoop();
+        //Loops.HealthLoop();
+        //int result2 = Return1.PrintSquare(5);
+        //Console.WriteLine(result2);
+        //Loops.NestedLoops();
+        //Loops.dowhile();
+        //Character.Player();
 
-    //Console.WriteLine(firstName);
-    //Console.WriteLine(lastName);
-    Console.WriteLine(wholeName);
-    Console.WriteLine(age);
-    Console.WriteLine(gpa);
-    Console.WriteLine(height);
-    Console.WriteLine(dollar);
-    Console.WriteLine(is_teacher);
-    Console.WriteLine(grade);
+    }
+}
 
-}
-}
